@@ -13,7 +13,7 @@ public class Main {
             {
                 public void run()
                 {
-                    powData[i] = extLib.eval(data[i], p);    //Предполагаю, что тип, возвращаемый методом eval - int
+                    powData[i] = extLib.eval(data[i], p);    //Thinking that return value of eval - int
                 }
             });
             myThread.start();
